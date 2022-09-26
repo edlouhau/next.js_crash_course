@@ -1,4 +1,4 @@
-// our-domain.com/news
+//domain.com/news
 import Link from 'next/link';
 import { Fragment } from "react"
 
@@ -7,7 +7,13 @@ function NewsPage() {
         <Fragment>
             <h1>The News Page</h1>
             <h2>Article</h2>
-             
+            <ul>
+          <li>
+            <Link href='/'>
+                Go to Home
+            </Link>
+            </li>
+        </ul>
         </Fragment>
     )
     

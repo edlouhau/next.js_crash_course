@@ -1,4 +1,4 @@
-// our-domain.com/
+//domain.com/
 import Link from 'next/link';
 import { Fragment } from 'react';
 
